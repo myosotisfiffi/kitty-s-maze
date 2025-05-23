@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Kitty's maze</title>
+    <link rel="icon" href="hellokittyicon.jfif" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="grid"></div>
+    <h3>Score:<span id="score"></span></h3>
+    <button id="startButton">Iniciar</button>
+
+    <div id="contador">Tempo restante: <span id="tempo">30</span> segundos</div>
+
+    <div id="timeout-modal" class="modal">
+      <div class="modal-content">
+        <p id="modal-message">Game Over</p>
+        <button onclick="fecharModal()">Fechar</button>
+      </div>
+    </div>
+    
+    <audio id="musicaFundo" src="musica.mpeg" preload="auto">
+      <p>Seu Browser não suporta essa música</p>
+    </audio>
+          
+
+    <script src="script.js"></script>
+  </body>
+</html>
+ 
+ 

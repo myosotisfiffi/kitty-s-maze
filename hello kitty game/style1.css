@@ -1,0 +1,96 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+    margin-left: 350px;
+}
+ 
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+ 
+.pac-dot {
+    background-color: rgb(37, 251, 37);  
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+ 
+.wall {
+    background-color: rgb(255, 0, 157);
+}
+ 
+.power-pellet {
+    background-color: rgb(1, 241, 1);
+    border-radius: 10px;
+}
+ 
+.blinky {
+    background-color: red;
+}
+ 
+.pinky {
+    background-color: pink;
+}
+ 
+.inky {
+    background-color: cyan;
+}
+ 
+.clyde {
+    background-color: orange;    
+}
+ 
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+ 
+.scared-ghost {
+    background-color: aquamarine;
+}
+h3{
+    margin-top: -42%;
+    font-family: "Concert One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 42px;
+}  
+  #contador {
+    font-family: "Concert One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  /* Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  } 
+  
