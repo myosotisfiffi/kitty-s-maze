@@ -1,5 +1,5 @@
 # 🚀 Nome do Projeto
-#💖 kitty-s-maze <br>
+# 💖 kitty-s-maze <br>
 Um jogo que é necessário reflexos rápidos para andar dentro do labirinto
 assim pegar as frutas distribuidas no cenário antes do tempo acabar
 
@@ -27,6 +27,7 @@ Botão de start e fases;<br>
 Tela inicial;<br>
 Personagens e seguir o tema;<br>
 Música e efeitos sonoros;<br>
+Adicionar regras<br>
 
 🍒História e tema <br>
 o tema inicial era um labirinto da hello kitty onde ela iria fugir e comer as frutinhas ao decorrer do jogo. <br>
