@@ -1,5 +1,5 @@
 # 🚀 Nome do Projeto
-# 💖 kitty-s-maze <br>
+# 💖 kitty's maze <br>
 Um jogo que é necessário reflexos rápidos para andar dentro do labirinto
 assim pegar as frutas distribuidas no cenário antes do tempo acabar
 
